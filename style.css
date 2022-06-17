@@ -1,0 +1,103 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	background-color: hsl(0, 100%, 74%);
+	background-image: url("images/bg-intro-desktop.png");
+}
+
+@media (max-width: 375px){
+body{
+	
+	background-image: url("images/bg-intro-mobile.png");
+}
+
+}
+main{
+	margin: auto;
+	padding: 50px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	
+}
+.top-content{
+	margin: 20px;
+	padding: 20px;
+	align-content: center;
+	justify-content: center;
+	/*text-align: justify;*/
+	width: 40%;
+	position: relative;
+	top: 100px;
+
+}
+h3{
+	font-weight: 700;
+	font-size: 35px;
+
+}
+.top-content p{
+	font-weight: 400;
+	font-size: 16px;
+
+}
+.top-button{
+	width: 100%;
+	height: 30px;
+	padding: 10px;
+	background-color: hsl(248, 32%, 49%);
+	border-radius: 5px;
+	
+}
+.top-button p{
+	font-size: 10px;
+ 	justify-content: center;
+ 	margin-bottom: 20px;
+}
+h3,p{
+	color: hsla(0, 0%, 100%, 0.75);
+}
+.button{
+  background-color: hsl(154, 59%, 51%);
+  color: hsla(0, 0%, 100%, 0.75);
+  width: 80%;
+  height: 40px;
+  margin: 15px;
+  padding: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.form{
+	background-color: white;
+	height: 60vh;
+}
+input[type=text], input[type=email], input[type=password] {
+  width: 80%;
+  height: 40px;
+  padding: 15px;
+  margin: 15px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+input:hover {
+	border: 1px solid black;
+}
+.side-content{
+	position: relative;
+	top: 10vh;
+}
+small{
+	font-size: 10px;
+	margin: 20px, 0px, 20px, 0px;
+}
+span{
+	color:red ;
+}
